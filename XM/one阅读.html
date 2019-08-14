@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/2.css">
+</head>
+<body>
+    <div class="box">
+            <div id="manue"  style="display:none;">
+                <a href="one图文.html">图文</a>
+                <a href="one阅读.html">阅读</a>
+                <a href="">音乐</a>
+                <a href="">影视</a>
+                <a href="">APP下载</a>
+                <a href="">关于</a>
+        
+            </div>
+    </div>
+    <div class="header">
+        <img src="img/列表.png" alt="">
+        <span>一个阅读</span>
+        <img src="img/搜索.png" alt="">
+        
+    </div>
+    <p class="top">-STORY-</p>
+    <div class="s-1">
+        <a href="">没有赏味期限，只有来日方长</a>
+        <p class="author">文 / 周源远</p>
+        <img src="img/y1.jpg" alt="">
+        <p>爱上一个人的时候，才学会理解和包容。愿意为对方削去身上的棱角，然后打磨成圆。</p>
+        <p>2017/7/13</p>
+    </div>
+    <p class="top">-STORY-</p>
+    <div class="s-2">
+        <a href="">如何避免被薛珍珠式的亲妈带进沟里？</a>
+        <p class="author">文 / 王嫣芸</p>
+        <img src="img/y2.jpg" alt="">
+        <p>我们不太习惯残忍，所以更多时候选择躲在低质量的亲密关系里用“爱没有对错”这句话麻痹自己。</p>
+        <p>2017/7/29</p>
+    </div>
+    <p class="top">-STORY-</p>
+    <div class="s-3">
+        <a href="">或许没有人是快乐的</a>
+        <p class="author">文 / 荞麦</p>
+        <img src="img/y3.jpg" alt="">
+        <p>我们不穷，不苦，有了一点钱。但很奇怪，却很少见到一个真正开心的人。</p>
+        <p>2017/7/28</p>
+    </div>
+    <script>
+    
+        window.onload=function(){
+            var show=document.getElementsByTagName("img")[0];
+    
+            show.onclick=function(){
+                if( document.getElementById("manue").style.display=='none'){
+                document.getElementById("manue").style.display='block';
+                }
+                else{
+                    document.getElementById("manue").style.display='none';
+                }
+            }
+        }
+        
+        </script>
+
+</body>
+</html>

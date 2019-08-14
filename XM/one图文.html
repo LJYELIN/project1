@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/1.css">
+</head>
+<body>
+        <div class="box">
+                <div id="manue"  style="display:none;">
+                    <a href="one图文.html">图文</a>
+                    <a href="one阅读.html">阅读</a>
+                    <a href="">音乐</a>
+                    <a href="">影视</a>
+                    <a href="">APP下载</a>
+                    <a href="">关于</a>
+            
+                </div>
+        </div>
+ 
+    <div class="header">
+        <img src="img/列表.png" alt="">
+        <span>一个图文</span>
+        <img src="img/搜索.png" alt="">
+       
+    </div>
+    <div class="h-1">
+            <p class="p1">
+                2019 / 08 / 12
+            </p>
+            <p>VOL2501</p>
+            <img src="img/1.jpg" alt="">
+            <p class="p2">摄影 | Hannah Busing</p>
+            <p class="p3">任何一样东西，你渴望拥有它，它就盛开。一旦你拥有它，它就凋谢。</p>
+            <p>马塞尔.普鲁斯特《追忆似水年华》</p>
+    </div>
+    <div class="h-2">
+            <p class="p1">
+                2019 / 08 / 11
+            </p>
+            <p>VOL2500</p>
+            <img src="img/2.jpg" alt="">
+            <p class="p2">摄影 | kryszpiniuk</p>
+            <p class="p3">人心中的成见是一座大山，任你怎么努力都休想搬动。</p>
+            <p>《哪吒之魔童降世》</p>
+    </div>
+    <div class="h-3">
+        <p class="p1">
+            2019 / 08 / 10
+        </p>
+        <p>VOL2499</p>
+        <img src="img/3.jpg" alt="">
+        <p class="p2">插画 | 井拾（ @井拾js ）</p>
+        <p class="p3">我们欣赏那些了解自己局限性的人，他们知道在什么时候该停下来。现代生活只是一味地朝前迈进、不知停歇，带来的后果就是超过一个人所能承受的极限。</p>
+        <p>山本耀司</p>
+    </div>
+    <div class="h-4">
+        <p class="p1">
+            2019 / 08 / 09
+        </p>
+        <p>VOL2498</p>
+        <img src="img/4.jpg" alt="">
+        <p class="p2">摄影 | Ian Schneider</p>
+        <p class="p3">社交的起因在于人们生活的单调和空虚。社交的需要驱使他们来到一起但各自具有的许多令人厌憎的品行又驱使他们分开。终于，他们找到了彼此容忍的适当距离，那就是礼貌。</p>
+        <p>叔本华</p>
+    </div>
+    <script>
+
+        window.onload=function(){
+            var show=document.getElementsByTagName("img")[0];
+    
+            show.onclick=function(){
+                if( document.getElementById("manue").style.display=='none'){
+                document.getElementById("manue").style.display='block';
+                }
+                else{
+                    document.getElementById("manue").style.display='none';
+                }
+            }
+        }
+        
+        </script>
+
+</body>
+</html>
